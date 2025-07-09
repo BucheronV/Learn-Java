@@ -1,6 +1,5 @@
 public class ConditionalDiscount {
     public static void main(String[] args) {
-        
         // variables : 
         //produit:
         Integer lait = 3;
@@ -26,7 +25,7 @@ public class ConditionalDiscount {
                 System.out.println("Vous ne possedez pas la carte de réduction pour profiter de la meilleure remise du magasin.");
             }
         } else {
-            System.err.println("La grande promotion du magasin n'est valide que le Mardi et non un autre jour.");
+            System.out.println("La grande promotion du magasin n'est valide que le Mardi et non un autre jour.");
         }
     }
 }
